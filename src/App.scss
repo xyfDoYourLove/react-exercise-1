@@ -1,4 +1,5 @@
 @import 'styles/variables.scss';
+@import '~antd/dist/antd.css';
 
 .app {
   margin: 80px auto $base-margin auto;
@@ -6,4 +7,56 @@
 
   width: 960px;
   background-color: $white;
+}
+
+.avatar {
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 0 421px;
+}
+.title {
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 0 430px;
+}
+.title2 {
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  margin: 0 199px;
+}
+divider {
+  border: 30px solid brown;
+}
+.katowice {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Helvetica Neue", serif;
+}
+.once {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  font-family: Arial;
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+.onceNum {
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.education {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(190, 94, 94);
+}
+.aboutText {
+  font-size: 15px;
+  font-family: Arial;
+}
+.card {
+  background-color:rgb(221, 213, 213);
 }
