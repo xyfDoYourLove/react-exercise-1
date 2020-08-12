@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 import './App.scss';
-import UserAvatar from './components/UserAvatar';
-import Title from './components/Title';
-import { Divider } from 'antd';
-import AboutMe from './components/AboutMe';
-import Education from './components/Education';
-// import avatarImg from './assets/avatar.jpg';
+import Header from './components/Header/Header';
+import AboutMe from './components/AboutMe/AboutMe';
+import Education from './components/Education/Education';
+import Separator from './components/Separator/Separator';
 
 class App extends Component {
   render() {
     return (
       <main className="app">
-        <UserAvatar />
-        <Title />
-        {/* <div className="divider">
-          <Divider />
-        </div> */}
-        <Divider />
+        <Header />
+        <Separator />
         <AboutMe />
         <Education />
       </main>

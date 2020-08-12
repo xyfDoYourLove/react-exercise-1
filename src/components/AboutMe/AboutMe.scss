@@ -1,0 +1,10 @@
+@import "src/styles/variables";
+
+.about-me {
+  padding: 0 $base-padding;
+
+  .content {
+    font-family: $font-family;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,9 @@
+@import "src/styles/variables";
+
+.section-title {
+  color: $primary-color;
+  text-align: left;
+  width: 100%;
+  text-transform: uppercase;
+  margin: $base-margin 0;
+}

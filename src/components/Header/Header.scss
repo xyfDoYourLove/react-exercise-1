@@ -1,0 +1,20 @@
+@import "src/styles/variables";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .avatar {
+    border-radius: 50%;
+    margin-top: -75px;
+  }
+
+  .intro {
+    text-transform: uppercase;
+    h1 {
+      text-align: center;
+      font-family: $font-family;
+      margin: $base-margin;
+    }
+  }
+}

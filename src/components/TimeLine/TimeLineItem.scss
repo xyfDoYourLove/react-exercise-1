@@ -1,0 +1,26 @@
+@import "src/styles/variables";
+
+.time-line-itm {
+  display: flex;
+  margin: $base-margin 0;
+
+  .time {
+    display: inline-block;
+    width: 6em;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .content {
+    background-color: $gray;
+    width: 100%;
+    h3 {
+      padding: $base-padding;
+      color: $black;
+    }
+    p {
+      font-size: 13px;
+      padding: $base-padding;
+    }
+  }
+}
