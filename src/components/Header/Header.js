@@ -12,7 +12,7 @@ class Header extends React.Component {
     return (
       <div className="header">
         <img src={avatar} className="avatar image-size" alt="avatar" />
-        <div className="intro">
+        <div className="self-intro">
           <h1>hello,</h1>
           <h1>my name is kamil 24yo and this is my resume/cv</h1>
         </div>

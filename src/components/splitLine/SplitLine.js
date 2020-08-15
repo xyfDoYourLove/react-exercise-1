@@ -1,5 +1,5 @@
 import React from 'react';
-import './Separator.scss';
+import './SplitLine.scss';
 
 class Separator extends React.Component {
   constructor(props) {
@@ -11,7 +11,5 @@ class Separator extends React.Component {
     return <hr className="separator" />;
   }
 }
-
-Separator.propTypes = {};
 
 export default Separator;
